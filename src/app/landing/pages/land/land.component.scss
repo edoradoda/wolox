@@ -1,0 +1,352 @@
+*{
+    // margin:0px;
+    // padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+ display: flex;
+ flex-flow: column nowrap;
+}
+.margen-interno{
+    padding: 0 50px;
+}
+
+    .header{
+        background:url('../../../../assets/Backgrounds/Bg_Header@2x.png');
+        background-position: center;
+        // background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+        .menu{
+            display: flex;
+            flex-flow: row nowrap;
+            height: 2rem;
+            align-items: center;
+        }
+            .logo{
+                flex:1 1 auto;
+            }
+                .logo img{
+                    width:10rem;
+                }
+           
+            .nav{
+                flex:2 1 auto;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+                .nav a{
+                    color:#000;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+                .nav a:hover{
+                    color:rgb(101, 168, 101);
+                }
+            .social{
+                flex:4 1 auto;
+            }
+        .bienvenida{
+            // background-color: #1f6cb0;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 33rem;
+            align-items: center;
+        }
+            .texto-bienvenida{
+                flex:1 1 45%;
+                display: flex;
+                align-items: center;
+                font-size: 3rem;
+                padding: 2rem 4rem 2rem 2rem;
+            }
+                .texto-bienvenida span{
+                    color: rgb(101, 168, 101);
+                    font-weight: 600;
+                }
+            .img-bienvenida{
+                flex:1 1 45%;
+                text-align: center;
+            }
+                .img-bienvenida img{
+                    // background: url('') no-repeat  center;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    transform: scaleX(-1);
+                    background-size: cover;
+                    height: 100%;
+                    width: 20rem ;
+                }
+
+
+    .section{
+         // background-color: #1f6cb0;
+         display: flex;
+         flex-flow: row nowrap;
+         height: 33rem;
+         align-items: center;
+    }
+            .siguenos{
+                flex:1 1 60%;
+                display: flex;
+                text-align: center;
+                background-image: url('../../../../assets/img_woloxer@2x.png');
+                background-position: center;
+                background-size: cover;
+                opacity: 0.9;
+                height: 23rem;
+                flex-direction: column;
+                padding-top: 5rem;
+                width: 100%;
+            }
+                .woloxer{
+                    flex:1 1 40%;
+                    font-size: 2.3rem;
+                }
+                    .greenw{
+                        color: rgb(84, 146, 84);
+                        font-weight: 600;
+                    }
+                    .bluew{
+                        color: rgb(0, 169, 229);
+                        font-weight: 600;
+                    }
+                .twitter{
+                    flex:1 1 30%;
+                    color: #fff;
+
+                }
+                .twitter img{
+                        width: 2rem;
+                        margin-bottom: -0.6rem;
+
+                    }
+                    
+                .bSiguenos{
+                    flex:1 1 30%;
+                }
+            .trabajamos{
+                background: rgb(242,245,250);
+                flex:1 1 40%;
+                // display: flex;
+                font-size: 3rem;
+                padding: 2rem 4rem 2rem 2rem;
+                text-align: center;
+                height: 23rem;
+            }
+    .beneficiosB{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .ofrecen{
+            display: flex;
+            flex-flow: row nowrap;
+            // height: 2rem;
+            flex:1 1 auto;
+            justify-content: center;
+        }  
+            .texto-beneficios{
+                font-size: 2rem;
+                font-weight: 500;
+            }
+        
+        .iconos{
+            flex:1 1 auto;
+            height: 5rem;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 10rem;
+            align-items: center;
+            justify-content: space-between;
+            // box-shadow: 0px 10px 14px -7px #276873;
+
+        }  
+
+            .icono{
+                flex:1 1 40%;
+                height: 7rem;
+                font-size: 1rem;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items:center;
+                margin-bottom: 4rem;
+            }
+                .icono img{
+                    width: 4rem;
+                    margin-bottom: auto;
+                    margin-top:1rem;
+                }
+                .icono div{
+                    text-align: center;
+                    margin-top:1rem;
+                }
+                
+    hr {
+            border: 0;
+            height: 0px; 
+            box-shadow: 0 1px 5px 1px rgb(167, 166, 167);
+            // flex-direction: column;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        background:url('../../../../assets/Backgrounds/Bg_Footer.png');
+        background-position: right;
+        background-size: cover;
+        flex-flow: column nowrap;
+    }
+        .pie{
+            width: 35rem;
+            text-align: center;
+            font-size: 2rem;
+            // height: 12rem;
+        }
+
+        .pie2{
+            width: 30rem;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: -2rem;
+            // height: 12rem;
+        }
+
+        .endWolox{
+            margin: 5rem 0 2rem 0;
+            font-weight: 600;
+
+        }
+
+.button-R {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #2aa7df;
+    display: inline-block;
+    cursor: pointer;
+    color: #2aa7df;
+    font-size: 1rem;
+    padding: 4px 17px;
+    text-decoration: none;
+}
+.button-R:hover {
+    background-color:#b6d9e9;
+}
+
+
+.button-S {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid #2aa7df;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    padding: 4px 30px;
+    text-decoration: none;
+}
+.button-S:hover {
+    background-color:#242c30;
+}
+
+.button-C {
+    background-color: #2aa7df;
+    border-radius: 15px;
+    border: 1px solid #2aa7df;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    padding: 4px 30px;
+    text-decoration: none;
+}
+.button-C:hover {
+    background-color:#97cfe9;
+}
+// .button-R:active {
+//     position:relative;
+//     top:1px;
+// }
+        
+
+@media all and (max-width:800px){
+
+    .bienvenida{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .siguenos{
+        flex-direction: column;
+        margin-top: 20rem;
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+
+    .beneficiosB{
+        flex-direction: column;
+        margin-top: 25rem;
+        text-align: center;
+
+    }
+ 
+    .iconos{
+        flex-flow: row wrap;
+    }  
+        .icono{
+            flex: 1 1 40%;
+            margin-top:1rem;
+        }
+
+
+    .footer{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    hr{
+        margin-top: 30rem;
+    }
+}
+
+@media all and (max-width:500px){
+
+    .pie{
+        width: 18rem;
+        font-size: 1.3rem;
+    }
+
+    .pie2{
+        width: 18rem;
+        font-size: 0.6rem;
+        margin-top: -1rem;
+    }
+
+    hr{
+        margin-top: 36rem;
+    }
+
+    // .footer{
+    //     // flex-direction: column;
+    //     margin-top: 5rem;
+    // }
+   
+}
