@@ -27,6 +27,10 @@
             flex-flow: row nowrap;
             height: 2rem;
             align-items: center;
+            position: fixed;
+            top: 10px;
+            width: 94%;
+            
         }
             .logo{
                 flex:1 1 auto;

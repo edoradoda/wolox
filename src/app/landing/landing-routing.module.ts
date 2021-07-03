@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+// import { Auth2Guard } from '../auth2.guard';
+// import { AuthGuard } from '../auth.guard';
 import { LandComponent } from './pages/land/land.component';
 import { ListComponent } from './pages/list/list.component';
 import { RegisterComponent } from './pages/register/register.component';
